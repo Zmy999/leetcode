@@ -1,6 +1,7 @@
 package leetcode;
 
 public class Leetcode463 {
+	// 岛屿的周长就是岛屿方格和非岛屿方格相邻的边的数量
 	public int islandPerimeter(int[][] grid) {
 		for (int r = 0; r < grid.length; r++) {
 			for (int c = 0; c < grid[0].length; c++) {
